@@ -1,0 +1,6 @@
+SELECT EMPNO,
+       ENAME,
+       SAL,
+       FUNC_AFTERTAX(SAL) AS AFTER_TAX
+FROM EMP
+;

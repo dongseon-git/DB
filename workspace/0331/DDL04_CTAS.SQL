@@ -1,0 +1,8 @@
+-- 데이터 없이 가져오기
+CREATE TABLE DEPT_DDL_40
+AS
+SELECT * FROM DEPT
+WHERE 1 = 2;
+
+SELECT* FROM DEPT_DDL_40;
+--선택된 행 없음
